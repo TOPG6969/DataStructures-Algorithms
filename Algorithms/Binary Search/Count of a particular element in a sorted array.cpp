@@ -1,5 +1,6 @@
 
-// TC - O(nlogn), SC - O(1)
+// Time Complexity = O(nlogn)
+// Space Complexity = O(1)
 
 #include <iostream>
 using namespace std;
