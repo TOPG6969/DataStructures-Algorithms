@@ -8,7 +8,8 @@ using namespace std;
 long long firstOccurance(vector<long long>& v, long long target)
 {
     int n = v.size();
-    int start = 0 , end = n - 1 , ans = -1;
+    int start = 0 ;
+    int  end = n - 1 , ans = -1;
     while (start <= end)
     {
         int mid = start + (end - start) / 2;
